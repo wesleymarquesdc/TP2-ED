@@ -1,13 +1,13 @@
 #---------------------------------------------------------------------------
-# Arquivo	  : Makefile
+# Arquivo	: Makefile
 # Conteúdo	: Compila o programa
-# Autor		  : Wesley Marques (wesleymarques@dcc.ufmg.br)
+# Autor		: Wesley Marques (wesleymarques@dcc.ufmg.br)
 #---------------------------------------------------------------------------
-# Opções	  : make all - compila o programa
-#						: make run - executa o programa
-#		        : make clean - remove objetos e executável
-#           : make valgrind - executa o valgrind
-#           : make commit - realiza um commit com a mensagem "update"
+# Opções	: make all - compila o programa
+#		: make run - executa o programa
+#		: make clean - remove objetos e executável
+#               : make valgrind - executa o valgrind
+#               : make commit - realiza um commit com a mensagem "update"
 #---------------------------------------------------------------------------
 
 CC = g++
