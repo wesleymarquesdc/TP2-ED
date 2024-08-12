@@ -7,16 +7,16 @@ mais densa a neblina fica. Linque sabe que em pouco tempo a magia da neblina far
 com que ele fique perdido ali para sempre, mas ele já está muito cansado das batalhas
 que travou. Sua única chance de sobrevivência é escapar da floresta antes que a exaustão
 tome conta dele.
-A floresta é composta por n clareiras e m trilhas que as conectam. As clareiras são nume-
-radas de 0 até n − 1. As trilhas podem ser percorridas apenas em uma direção. Algumas
-clareiras possuem portais, que as conectam por um caminho mágico de distância 0. Sem-
-pre que Linque caminha por uma das trilhas, ele consome energia proporcional à distância
-percorrida, o que significa que atravessar os portais não consome sua energia. No entanto
-Linque já está cansado da viagem, possui apenas s de energia e pode utilizar os portais no
-máximo k vezes. Sabemos que ele começa sempre na clareira 0 e a saída está na clareira
-n − 1. Seu trabalho é decidir se Linque consegue escapar da floresta, dado que para isso
-ele deve ser capaz de chegar na clareira n − 1 gastando no máximo s de energia e atra-
-vessando no máximo k portais. Caso contrário ele ficará perdido na floresta para sempre...
+A floresta é composta por n clareiras e m trilhas que as conectam. As clareiras são numeradas
+de 0 até n − 1. As trilhas podem ser percorridas apenas em uma direção. Algumas clareiras 
+possuem portais, que as conectam por um caminho mágico de distância 0. Sempre que Linque 
+caminha por uma das trilhas, ele consome energia proporcional à distância percorrida, o que 
+significa que atravessar os portais não consome sua energia. No entanto Linque já está cansado 
+da viagem, possui apenas s de energia e pode utilizar os portais no máximo k vezes. Sabemos 
+que ele começa sempre na clareira 0 e a saída está na clareira n − 1. Seu trabalho é decidir se 
+Linque consegue escapar da floresta, dado que para isso ele deve ser capaz de chegar na clareira 
+n − 1 gastando no máximo s de energia e atravessando no máximo k portais. Caso contrário ele 
+ficará perdido na floresta para sempre...
 
 ## Algoritmos
 Neste trabalho utilizaremos dois algoritmos. O primeiro é o algoritmo de Djikstra, um
@@ -34,15 +34,14 @@ como heurística.
 ## Entrada e saída
 As instâncias serão lidas pela entrada padrão. A primeira linha consiste em três inteiros
 n, m e k que representam, respectivamente, quantos vértices, trilhas e portais a floresta
-possui. As próximas n linhas possuem dois números racionais x e y, descrevendo as coorde-
-nadas de cada clareira em um plano. A seguir, as próximas m linhas possuem dois inteiros
-u e v, indicando que existe uma trilha entre as duas clareiras, que só pode ser percorrida
+possui. As próximas n linhas possuem dois números racionais x e y, descrevendo as coordenadas 
+de cada clareira em um plano. A seguir, as próximas m linhas possuem dois inteiros u e v, 
+indicando que existe uma trilha entre as duas clareiras, que só pode ser percorrida
 começando em u e terminando em v. Por fim, as próximas k linhas possuem também dois
 inteiros u e v, indicando quais clareiras são conectadas por portais (os portais também só
-podem ser atravessados começando em u e terminando em v). A úlsubmetidotima linha
-contém um número racional s indicando a quantidade de energia que Linque possui para
-caminhar e um inteiro q indicando quantos portais podem ser utilizados.
-A saída da execução de um algoritmo serão dois inteiros. O primeiro, utilizando o al-
-goritmo Djikstra imprime 1 caso exista caminho de custo no máximo s e que cruze no
-máximo q portais e 0 caso contrário. De forma análoga faça o mesmo para o algoritmo
-A*.
+podem ser atravessados começando em u e terminando em v). A última linha contém um número 
+racional s indicando a quantidade de energia que Linque possui para caminhar e um inteiro q 
+indicando quantos portais podem ser utilizados.
+A saída da execução de um algoritmo serão dois inteiros. O primeiro, utilizando o algoritmo 
+Djikstra imprime 1 caso exista caminho de custo no máximo s e que cruze no máximo q portais 
+e 0 caso contrário. De forma análoga faça o mesmo para o algoritmo A*.
