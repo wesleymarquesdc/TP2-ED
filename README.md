@@ -30,14 +30,8 @@ forma eles são bem semelhantes.
 https://pt.wikipedia.org/wiki/Algoritmo_A*
 Na implementação do A* você deve utilizar a distância euclidiana para o vértice de destino
 como heurística.
-submetido Observação importante: Para a entrega da VPL é essencial que, na sua
-implementação de ambos os algoritmos, ele pare quando o vértice de destino for retirado
-da fila de prioridades.
 
 ## Entrada e saída
-O formato apresentado nesta seção é o que será utilizado para a avaliação de corretude
-em uma VPL no moodle. Sinta-se livre da alterá-la para realizar seus experimentos para
-a documentação caso julgue necessário.
 As instâncias serão lidas pela entrada padrão. A primeira linha consiste em três inteiros
 n, m e k que representam, respectivamente, quantos vértices, trilhas e portais a floresta
 possui. As próximas n linhas possuem dois números racionais x e y, descrevendo as coorde-
